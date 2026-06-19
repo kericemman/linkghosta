@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import navbarLogo from "../../../assets/logo-navbar.png";
 
 const sizeClasses = {
   default: "h-[52px] w-[166px] sm:h-16 sm:w-[205px] lg:h-[68px] lg:w-[218px]",
@@ -13,7 +14,7 @@ export default function PublicLogo({ size = "default", className = "" }) {
       className={`group inline-flex shrink-0 items-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400 ${className}`}
     >
       <img
-        src="/assets/logo-navbar.png"
+        src={navbarLogo}
         alt=""
         aria-hidden="true"
         className={`block shrink-0 object-contain object-center ${sizeClasses[size] || sizeClasses.default}`}
