@@ -1,0 +1,2 @@
+import LeadDetails from"../../../components/admin/leads/LeadDetails.jsx";import{inquiryService}from"../../../services/inquiryService.js";
+export default function InquiryDetailsPage(){return <LeadDetails type="Inquiry" loadItem={inquiryService.getInquiry} updateStatus={inquiryService.updateInquiryStatus} addNote={inquiryService.addInquiryNote} deleteItem={inquiryService.deleteInquiry} statuses={["new","read","responded","closed","spam"]}/>}

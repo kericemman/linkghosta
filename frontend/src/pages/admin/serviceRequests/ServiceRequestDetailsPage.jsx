@@ -1,0 +1,2 @@
+import LeadDetails from"../../../components/admin/leads/LeadDetails.jsx";import{serviceRequestService}from"../../../services/serviceRequestService.js";
+export default function ServiceRequestDetailsPage(){return <LeadDetails type="Service request" loadItem={serviceRequestService.getServiceRequest} updateStatus={serviceRequestService.updateServiceRequestStatus} addNote={serviceRequestService.addServiceRequestNote} deleteItem={serviceRequestService.deleteServiceRequest} statuses={["new","reviewing","contacted","qualified","converted","closed","spam"]}/>}

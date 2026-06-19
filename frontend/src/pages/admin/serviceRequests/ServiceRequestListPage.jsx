@@ -1,0 +1,2 @@
+import LeadList from"../../../components/admin/leads/LeadList.jsx";import{serviceRequestService}from"../../../services/serviceRequestService.js";
+export default function ServiceRequestListPage(){return <LeadList title="Service requests" description="Discovery calls and service enquiries from prospective clients." basePath="/admin/service-requests" loadItems={serviceRequestService.getServiceRequests} detailKey="serviceType"/>}

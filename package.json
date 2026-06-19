@@ -1,0 +1,23 @@
+{
+  "name": "linkghosta",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "install-all": "npm install --prefix frontend && npm install --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "server": "npm run dev --prefix backend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend",
+    "production:install": "npm ci --omit=dev --prefix backend && npm ci --prefix frontend",
+    "production:build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}

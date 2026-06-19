@@ -1,0 +1,288 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.8.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/user/Desktop/link-ghosta/backend/.npmrc
+5 silly config load:file:/Users/user/.npmrc
+6 silly config load:file:/Users/user/Desktop/link-ghosta/backend/etc/npmrc
+7 verbose title npm install multer@latest
+8 verbose argv "install" "--prefix" "backend" "multer@latest"
+9 verbose logfile logs-max:10 dir:/Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_31_679Z-
+10 verbose logfile /Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_31_679Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly packumentCache corgi:https://registry.npmjs.org/multer cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/multer 465ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/multer set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest multer@2.2.0
+18 silly packumentCache full:https://registry.npmjs.org/multer cache-miss
+19 http cache https://registry.npmjs.org/multer 7ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/multer set size:156441 disposed:false
+21 silly placeDep ROOT multer@2.2.0 REPLACE for: linkghosta-backend@0.1.0 want: 2.2.0
+22 silly fetch manifest concat-stream@^2.0.0
+23 silly packumentCache full:https://registry.npmjs.org/concat-stream cache-miss
+24 http cache https://registry.npmjs.org/concat-stream 3ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/concat-stream set size:63783 disposed:false
+26 silly placeDep ROOT concat-stream@2.0.0 OK for: multer@2.2.0 want: ^2.0.0
+27 silly fetch manifest buffer-from@^1.0.0
+28 silly packumentCache full:https://registry.npmjs.org/buffer-from cache-miss
+29 silly fetch manifest readable-stream@^3.0.2
+30 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+31 silly fetch manifest typedarray@^0.0.6
+32 silly packumentCache full:https://registry.npmjs.org/typedarray cache-miss
+33 http cache https://registry.npmjs.org/buffer-from 6ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/buffer-from set size:15463 disposed:false
+35 http cache https://registry.npmjs.org/typedarray 6ms (cache hit)
+36 silly packumentCache full:https://registry.npmjs.org/typedarray set size:18469 disposed:false
+37 http cache https://registry.npmjs.org/readable-stream 8ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+39 silly placeDep ROOT buffer-from@1.1.2 OK for: concat-stream@2.0.0 want: ^1.0.0
+40 silly placeDep ROOT readable-stream@3.6.2 OK for: concat-stream@2.0.0 want: ^3.0.2
+41 silly placeDep ROOT typedarray@0.0.6 OK for: concat-stream@2.0.0 want: ^0.0.6
+42 silly fetch manifest string_decoder@^1.1.1
+43 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+44 silly fetch manifest util-deprecate@^1.0.1
+45 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+46 http cache https://registry.npmjs.org/string_decoder 6ms (cache hit)
+47 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+48 http cache https://registry.npmjs.org/util-deprecate 6ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+50 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+51 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+52 silly reify mark retired [
+52 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/concat-stream'
+52 silly reify ]
+53 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/backend/node_modules/core-util-is' ]
+54 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/backend/node_modules/isarray' ]
+55 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/backend/node_modules/minimist' ]
+56 silly reify mark retired [
+56 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/mkdirp',
+56 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/.bin/mkdirp'
+56 silly reify ]
+57 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/backend/node_modules/multer' ]
+58 silly reify mark retired [
+58 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/process-nextick-args'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/readable-stream'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/string_decoder'
+60 silly reify ]
+61 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/backend/node_modules/xtend' ]
+62 silly reify moves {
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/concat-stream': '/Users/user/Desktop/link-ghosta/backend/node_modules/.concat-stream-A7r2lvFD',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/core-util-is': '/Users/user/Desktop/link-ghosta/backend/node_modules/.core-util-is-87JSMRkg',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/isarray': '/Users/user/Desktop/link-ghosta/backend/node_modules/.isarray-TLV0iGmw',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/minimist': '/Users/user/Desktop/link-ghosta/backend/node_modules/.minimist-uwWGPwFX',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/mkdirp': '/Users/user/Desktop/link-ghosta/backend/node_modules/.mkdirp-YGOOhlZk',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/.bin/mkdirp': '/Users/user/Desktop/link-ghosta/backend/node_modules/.bin/.mkdirp-lHjAARVN',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/multer': '/Users/user/Desktop/link-ghosta/backend/node_modules/.multer-G7p2GXSe',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/process-nextick-args': '/Users/user/Desktop/link-ghosta/backend/node_modules/.process-nextick-args-SgZEaUa7',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/readable-stream': '/Users/user/Desktop/link-ghosta/backend/node_modules/.readable-stream-VfRpQYEW',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/string_decoder': '/Users/user/Desktop/link-ghosta/backend/node_modules/.string_decoder-iSqxGt4i',
+62 silly reify   '/Users/user/Desktop/link-ghosta/backend/node_modules/xtend': '/Users/user/Desktop/link-ghosta/backend/node_modules/.xtend-4ctk3bYc'
+62 silly reify }
+63 silly audit bulk request {
+63 silly audit   '@mongodb-js/saslprep': [ '1.4.11' ],
+63 silly audit   '@react-email/render': [ '1.1.2' ],
+63 silly audit   '@selderee/plugin-htmlparser2': [ '0.11.0' ],
+63 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+63 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+63 silly audit   accepts: [ '1.3.8' ],
+63 silly audit   anymatch: [ '3.1.3' ],
+63 silly audit   'append-field': [ '1.0.0' ],
+63 silly audit   'array-flatten': [ '1.1.1' ],
+63 silly audit   'balanced-match': [ '4.0.4' ],
+63 silly audit   'basic-auth': [ '2.0.1' ],
+63 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+63 silly audit   bcryptjs: [ '2.4.3' ],
+63 silly audit   'binary-extensions': [ '2.3.0' ],
+63 silly audit   'body-parser': [ '1.20.5' ],
+63 silly audit   'brace-expansion': [ '5.0.6' ],
+63 silly audit   braces: [ '3.0.3' ],
+63 silly audit   bson: [ '6.10.4' ],
+63 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+63 silly audit   busboy: [ '1.6.0' ],
+63 silly audit   bytes: [ '3.1.2' ],
+63 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+63 silly audit   'call-bound': [ '1.0.4' ],
+63 silly audit   chokidar: [ '3.6.0' ],
+63 silly audit   cloudinary: [ '2.10.0' ],
+63 silly audit   'content-disposition': [ '0.5.4' ],
+63 silly audit   'content-type': [ '1.0.5' ],
+63 silly audit   cookie: [ '0.7.2' ],
+63 silly audit   'cookie-parser': [ '1.4.7' ],
+63 silly audit   'cookie-signature': [ '1.0.6' ],
+63 silly audit   cors: [ '2.8.6' ],
+63 silly audit   debug: [ '2.6.9', '4.4.3' ],
+63 silly audit   deepmerge: [ '4.3.1' ],
+63 silly audit   depd: [ '2.0.0' ],
+63 silly audit   destroy: [ '1.2.0' ],
+63 silly audit   'dom-serializer': [ '2.0.0' ],
+63 silly audit   domelementtype: [ '2.3.0' ],
+63 silly audit   domhandler: [ '5.0.3' ],
+63 silly audit   domutils: [ '3.2.2' ],
+63 silly audit   dotenv: [ '16.6.1' ],
+63 silly audit   'dunder-proto': [ '1.0.1' ],
+63 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+63 silly audit   'ee-first': [ '1.1.1' ],
+63 silly audit   encodeurl: [ '2.0.0' ],
+63 silly audit   entities: [ '4.5.0' ],
+63 silly audit   'es-define-property': [ '1.0.1' ],
+63 silly audit   'es-errors': [ '1.3.0' ],
+63 silly audit   'es-object-atoms': [ '1.1.2' ],
+63 silly audit   'escape-html': [ '1.0.3' ],
+63 silly audit   etag: [ '1.8.1' ],
+63 silly audit   express: [ '4.22.2' ],
+63 silly audit   'express-rate-limit': [ '7.5.1' ],
+63 silly audit   'fast-deep-equal': [ '2.0.1' ],
+63 silly audit   'fill-range': [ '7.1.1' ],
+63 silly audit   finalhandler: [ '1.3.2' ],
+63 silly audit   forwarded: [ '0.2.0' ],
+63 silly audit   fresh: [ '0.5.2' ],
+63 silly audit   fsevents: [ '2.3.3' ],
+63 silly audit   'function-bind': [ '1.1.2' ],
+63 silly audit   'get-intrinsic': [ '1.3.0' ],
+63 silly audit   'get-proto': [ '1.0.1' ],
+63 silly audit   'glob-parent': [ '5.1.2' ],
+63 silly audit   gopd: [ '1.2.0' ],
+63 silly audit   'has-flag': [ '3.0.0' ],
+63 silly audit   'has-symbols': [ '1.1.0' ],
+63 silly audit   hasown: [ '2.0.4' ],
+63 silly audit   helmet: [ '8.2.0' ],
+63 silly audit   'html-to-text': [ '9.0.5' ],
+63 silly audit   htmlparser2: [ '8.0.2' ],
+63 silly audit   'http-errors': [ '2.0.1' ],
+63 silly audit   'iconv-lite': [ '0.4.24' ],
+63 silly audit   'ignore-by-default': [ '1.0.1' ],
+63 silly audit   inherits: [ '2.0.4' ],
+63 silly audit   'ipaddr.js': [ '1.9.1' ],
+63 silly audit   'is-binary-path': [ '2.1.0' ],
+63 silly audit   'is-extglob': [ '2.1.1' ],
+63 silly audit   'is-glob': [ '4.0.3' ],
+63 silly audit   'is-number': [ '7.0.0' ],
+63 silly audit   jsonwebtoken: [ '9.0.3' ],
+63 silly audit   ms: [ '2.1.3', '2.0.0' ],
+63 silly audit   jwa: [ '2.0.1' ],
+63 silly audit   jws: [ '4.0.1' ],
+63 silly audit   kareem: [ '2.6.3' ],
+63 silly audit   leac: [ '0.6.0' ],
+63 silly audit   lodash: [ '4.18.1' ],
+63 silly audit   'lodash.includes': [ '4.3.0' ],
+63 silly audit   'lodash.isboolean': [ '3.0.3' ],
+63 silly audit   'lodash.isinteger': [ '4.0.4' ],
+63 silly audit   'lodash.isnumber': [ '3.0.3' ],
+63 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+63 silly audit   'lodash.isstring': [ '4.0.1' ],
+63 silly audit   'lodash.once': [ '4.1.1' ],
+63 silly audit   'math-intrinsics': [ '1.1.0' ],
+63 silly audit   'media-typer': [ '0.3.0' ],
+63 silly audit   'memory-pager': [ '1.5.0' ],
+63 silly audit   'merge-descriptors': [ '1.0.3' ],
+63 silly audit   methods: [ '1.1.2' ],
+63 silly audit   mime: [ '1.6.0' ],
+63 silly audit   'mime-db': [ '1.52.0' ],
+63 silly audit   'mime-types': [ '2.1.35' ],
+63 silly audit   minimatch: [ '10.2.5' ],
+63 silly audit   mongodb: [ '6.20.0' ],
+63 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+63 silly audit   mongoose: [ '8.24.0' ],
+63 silly audit   morgan: [ '1.11.0' ],
+63 silly audit   mpath: [ '0.9.0' ],
+63 silly audit   mquery: [ '5.0.0' ],
+63 silly audit   negotiator: [ '0.6.3' ],
+63 silly audit   nodemon: [ '3.1.14' ],
+63 silly audit   'normalize-path': [ '3.0.0' ],
+63 silly audit   'object-assign': [ '4.1.1' ],
+63 silly audit   'object-inspect': [ '1.13.4' ],
+63 silly audit   'on-finished': [ '2.4.1' ],
+63 silly audit   'on-headers': [ '1.1.0' ],
+63 silly audit   parseley: [ '0.12.1' ],
+63 silly audit   parseurl: [ '1.3.3' ],
+63 silly audit   'path-to-regexp': [ '0.1.13' ],
+63 silly audit   peberminta: [ '0.9.0' ],
+63 silly audit   picomatch: [ '2.3.2' ],
+63 silly audit   prettier: [ '3.8.4' ],
+63 silly audit   'proxy-addr': [ '2.0.7' ],
+63 silly audit   'pstree.remy': [ '1.1.8' ],
+63 silly audit   punycode: [ '2.3.1' ],
+63 silly audit   qs: [ '6.15.2' ],
+63 silly audit   'range-parser': [ '1.2.1' ],
+63 silly audit   'raw-body': [ '2.5.3' ],
+63 silly audit   react: [ '19.2.7' ],
+63 silly audit   'react-dom': [ '19.2.7' ],
+63 silly audit   'react-promise-suspense': [ '0.3.4' ],
+63 silly audit   readdirp: [ '3.6.0' ],
+63 silly audit   resend: [ '4.8.0' ],
+63 silly audit   'safer-buffer': [ '2.1.2' ],
+63 silly audit   scheduler: [ '0.27.0' ],
+63 silly audit   selderee: [ '0.11.0' ],
+63 silly audit   semver: [ '7.8.4' ],
+63 silly audit   send: [ '0.19.2' ],
+63 silly audit   'serve-static': [ '1.16.3' ],
+63 silly audit   setprototypeof: [ '1.2.0' ],
+63 silly audit   'side-channel': [ '1.1.1' ],
+63 silly audit   'side-channel-list': [ '1.0.1' ],
+63 silly audit   'side-channel-map': [ '1.0.1' ],
+63 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+63 silly audit   sift: [ '17.1.3' ],
+63 silly audit   'simple-update-notifier': [ '2.0.0' ],
+63 silly audit   'sparse-bitfield': [ '3.0.3' ],
+63 silly audit   statuses: [ '2.0.2' ],
+63 silly audit   streamsearch: [ '1.1.0' ],
+63 silly audit   'supports-color': [ '5.5.0' ],
+63 silly audit   'to-regex-range': [ '5.0.1' ],
+63 silly audit   toidentifier: [ '1.0.1' ],
+63 silly audit   touch: [ '3.1.1' ],
+63 silly audit   tr46: [ '5.1.1' ],
+63 silly audit   'type-is': [ '1.6.18' ],
+63 silly audit   undefsafe: [ '2.0.5' ],
+63 silly audit   unpipe: [ '1.0.0' ],
+63 silly audit   'utils-merge': [ '1.0.1' ],
+63 silly audit   vary: [ '1.1.2' ],
+63 silly audit   'webidl-conversions': [ '7.0.0' ],
+63 silly audit   'whatwg-url': [ '14.2.0' ],
+63 silly audit   multer: [ '2.2.0' ],
+63 silly audit   'concat-stream': [ '2.0.0' ],
+63 silly audit   'buffer-from': [ '1.1.2' ],
+63 silly audit   'readable-stream': [ '3.6.2' ],
+63 silly audit   typedarray: [ '0.0.6' ],
+63 silly audit   string_decoder: [ '1.3.0' ],
+63 silly audit   'util-deprecate': [ '1.0.2' ]
+63 silly audit }
+64 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+65 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+66 http cache concat-stream@https://registry.npmjs.org/concat-stream/-/concat-stream-2.0.0.tgz 0ms (cache hit)
+67 http cache multer@https://registry.npmjs.org/multer/-/multer-2.2.0.tgz 0ms (cache hit)
+68 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+69 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz. Extracting by manifest.
+70 silly tarball no local data for concat-stream@https://registry.npmjs.org/concat-stream/-/concat-stream-2.0.0.tgz. Extracting by manifest.
+71 silly tarball no local data for multer@https://registry.npmjs.org/multer/-/multer-2.2.0.tgz. Extracting by manifest.
+72 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz. Extracting by manifest.
+73 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 109ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/concat-stream/-/concat-stream-2.0.0.tgz 110ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/multer/-/multer-2.2.0.tgz 118ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 132ms (cache miss)
+77 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 305ms
+78 silly audit report {}
+79 silly ADD node_modules/fsevents
+80 silly REMOVE node_modules/xtend
+81 silly CHANGE node_modules/string_decoder
+82 silly REMOVE node_modules/string_decoder/node_modules/safe-buffer
+83 silly CHANGE node_modules/readable-stream
+84 silly REMOVE node_modules/readable-stream/node_modules/safe-buffer
+85 silly REMOVE node_modules/process-nextick-args
+86 silly CHANGE node_modules/multer
+87 silly REMOVE node_modules/mkdirp
+88 silly REMOVE node_modules/minimist
+89 silly REMOVE node_modules/isarray
+90 silly REMOVE node_modules/core-util-is
+91 silly CHANGE node_modules/concat-stream
+92 verbose cwd /Users/user/Desktop/link-ghosta
+93 verbose os Darwin 25.5.0
+94 verbose node v25.8.1
+95 verbose npm  v11.11.0
+96 verbose exit 0
+97 info ok

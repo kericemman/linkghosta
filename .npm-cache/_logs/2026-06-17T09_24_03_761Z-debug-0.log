@@ -1,0 +1,245 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.8.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/user/Desktop/link-ghosta/.npmrc
+5 silly config load:file:/Users/user/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install concurrently@latest
+8 verbose argv "install" "--save-dev" "concurrently@latest"
+9 verbose logfile logs-max:10 dir:/Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_03_761Z-
+10 verbose logfile /Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_03_761Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly packumentCache corgi:https://registry.npmjs.org/concurrently cache-miss
+14 http cache https://registry.npmjs.org/concurrently 22ms (cache hit)
+15 silly packumentCache corgi:https://registry.npmjs.org/concurrently set size:107332 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest concurrently@10.0.3
+18 silly packumentCache full:https://registry.npmjs.org/concurrently cache-miss
+19 http cache https://registry.npmjs.org/concurrently 5ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/concurrently set size:214044 disposed:false
+21 silly placeDep ROOT concurrently@10.0.3 REPLACE for: linkghosta@0.1.0 want: 10.0.3
+22 silly fetch manifest chalk@5.6.2
+23 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+24 silly fetch manifest shell-quote@1.8.4
+25 silly packumentCache full:https://registry.npmjs.org/shell-quote cache-miss
+26 silly fetch manifest supports-color@10.2.2
+27 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+28 silly fetch manifest yargs@18.0.0
+29 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+30 http cache https://registry.npmjs.org/supports-color 8ms (cache hit)
+31 silly packumentCache full:https://registry.npmjs.org/supports-color set size:118680 disposed:false
+32 http cache https://registry.npmjs.org/shell-quote 11ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/shell-quote set size:65011 disposed:false
+34 http cache https://registry.npmjs.org/chalk 15ms (cache hit)
+35 silly packumentCache full:https://registry.npmjs.org/chalk set size:117861 disposed:false
+36 http cache https://registry.npmjs.org/yargs 19ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/yargs set size:744380 disposed:false
+38 silly placeDep ROOT chalk@5.6.2 OK for: concurrently@10.0.3 want: 5.6.2
+39 silly placeDep ROOT shell-quote@1.8.4 OK for: concurrently@10.0.3 want: 1.8.4
+40 silly placeDep ROOT supports-color@10.2.2 OK for: concurrently@10.0.3 want: 10.2.2
+41 silly placeDep ROOT yargs@18.0.0 OK for: concurrently@10.0.3 want: 18.0.0
+42 silly fetch manifest y18n@^5.0.5
+43 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+44 silly fetch manifest cliui@^9.0.1
+45 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+46 silly fetch manifest escalade@^3.1.1
+47 silly packumentCache full:https://registry.npmjs.org/escalade cache-miss
+48 silly fetch manifest string-width@^7.2.0
+49 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+50 silly fetch manifest yargs-parser@^22.0.0
+51 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+52 silly fetch manifest get-caller-file@^2.0.5
+53 silly packumentCache full:https://registry.npmjs.org/get-caller-file cache-miss
+54 http cache https://registry.npmjs.org/y18n 12ms (cache hit)
+55 silly packumentCache full:https://registry.npmjs.org/y18n set size:76155 disposed:false
+56 http cache https://registry.npmjs.org/get-caller-file 12ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/get-caller-file set size:26456 disposed:false
+58 http cache https://registry.npmjs.org/yargs-parser 14ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:238630 disposed:false
+60 http cache https://registry.npmjs.org/string-width 18ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/string-width set size:70381 disposed:false
+62 http cache https://registry.npmjs.org/escalade 20ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/escalade set size:33724 disposed:false
+64 http cache https://registry.npmjs.org/cliui 23ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/cliui set size:69089 disposed:false
+66 silly placeDep ROOT cliui@9.0.1 OK for: yargs@18.0.0 want: ^9.0.1
+67 silly placeDep ROOT escalade@3.2.0 OK for: yargs@18.0.0 want: ^3.1.1
+68 silly placeDep ROOT get-caller-file@2.0.5 OK for: yargs@18.0.0 want: ^2.0.5
+69 silly placeDep ROOT string-width@7.2.0 OK for: yargs@18.0.0 want: ^7.2.0
+70 silly placeDep ROOT y18n@5.0.8 OK for: yargs@18.0.0 want: ^5.0.5
+71 silly placeDep ROOT yargs-parser@22.0.0 OK for: yargs@18.0.0 want: ^22.0.0
+72 silly fetch manifest strip-ansi@^7.1.0
+73 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+74 silly fetch manifest wrap-ansi@^9.0.0
+75 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+76 silly fetch manifest strip-ansi@^7.1.0
+77 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+78 silly fetch manifest emoji-regex@^10.3.0
+79 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+80 silly fetch manifest get-east-asian-width@^1.0.0
+81 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width cache-miss
+82 http cache https://registry.npmjs.org/strip-ansi 29ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+84 http cache https://registry.npmjs.org/strip-ansi 32ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+86 silly packumentCache full:https://registry.npmjs.org/strip-ansi dispose
+87 http cache https://registry.npmjs.org/wrap-ansi 32ms (cache hit)
+88 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:55299 disposed:false
+89 http cache https://registry.npmjs.org/emoji-regex 33ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:89064 disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/get-east-asian-width 383ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width set size:undefined disposed:false
+93 silly placeDep ROOT strip-ansi@7.2.0 OK for: cliui@9.0.1 want: ^7.1.0
+94 silly placeDep ROOT wrap-ansi@9.0.2 OK for: cliui@9.0.1 want: ^9.0.0
+95 silly fetch manifest ansi-regex@^6.2.2
+96 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+97 silly fetch manifest ansi-styles@^6.2.1
+98 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+99 http cache https://registry.npmjs.org/ansi-styles 4ms (cache hit)
+100 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:63233 disposed:false
+101 http cache https://registry.npmjs.org/ansi-regex 6ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:43572 disposed:false
+103 silly placeDep ROOT emoji-regex@10.6.0 OK for: string-width@7.2.0 want: ^10.3.0
+104 silly placeDep ROOT get-east-asian-width@1.6.0 OK for: string-width@7.2.0 want: ^1.0.0
+105 silly placeDep ROOT ansi-regex@6.2.2 OK for: strip-ansi@7.2.0 want: ^6.2.2
+106 silly placeDep ROOT ansi-styles@6.2.3 OK for: wrap-ansi@9.0.2 want: ^6.2.1
+107 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/ansi-regex' ]
+108 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/ansi-styles' ]
+109 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/chalk' ]
+110 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/cliui' ]
+111 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/color-convert' ]
+112 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/color-name' ]
+113 silly reify mark retired [
+113 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/concurrently',
+113 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/.bin/conc',
+113 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/.bin/concurrently'
+113 silly reify ]
+114 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/emoji-regex' ]
+115 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/has-flag' ]
+116 silly reify mark retired [
+116 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/is-fullwidth-code-point'
+116 silly reify ]
+117 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/require-directory' ]
+118 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/shell-quote' ]
+119 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/string-width' ]
+120 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/strip-ansi' ]
+121 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/supports-color' ]
+122 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/wrap-ansi' ]
+123 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/yargs' ]
+124 silly reify mark retired [ '/Users/user/Desktop/link-ghosta/node_modules/yargs-parser' ]
+125 silly reify moves {
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/ansi-regex': '/Users/user/Desktop/link-ghosta/node_modules/.ansi-regex-ZOpRAHGu',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/ansi-styles': '/Users/user/Desktop/link-ghosta/node_modules/.ansi-styles-n045quL1',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/chalk': '/Users/user/Desktop/link-ghosta/node_modules/.chalk-JaDcjlSq',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/cliui': '/Users/user/Desktop/link-ghosta/node_modules/.cliui-RPcIZP2N',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/color-convert': '/Users/user/Desktop/link-ghosta/node_modules/.color-convert-7sw7PZJ6',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/color-name': '/Users/user/Desktop/link-ghosta/node_modules/.color-name-tVVpRc4n',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/concurrently': '/Users/user/Desktop/link-ghosta/node_modules/.concurrently-IUYrHtYB',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/.bin/conc': '/Users/user/Desktop/link-ghosta/node_modules/.bin/.conc-JnXJdUnQ',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/.bin/concurrently': '/Users/user/Desktop/link-ghosta/node_modules/.bin/.concurrently-HkDsQWho',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/emoji-regex': '/Users/user/Desktop/link-ghosta/node_modules/.emoji-regex-EexlSAux',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/has-flag': '/Users/user/Desktop/link-ghosta/node_modules/.has-flag-qf8vZ6uW',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/is-fullwidth-code-point': '/Users/user/Desktop/link-ghosta/node_modules/.is-fullwidth-code-point-fSVXNWR8',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/require-directory': '/Users/user/Desktop/link-ghosta/node_modules/.require-directory-zGvPodpn',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/shell-quote': '/Users/user/Desktop/link-ghosta/node_modules/.shell-quote-viv083Nu',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/string-width': '/Users/user/Desktop/link-ghosta/node_modules/.string-width-9UtYJJwQ',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/strip-ansi': '/Users/user/Desktop/link-ghosta/node_modules/.strip-ansi-D1WPsA4h',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/supports-color': '/Users/user/Desktop/link-ghosta/node_modules/.supports-color-Jt0NuBQJ',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/wrap-ansi': '/Users/user/Desktop/link-ghosta/node_modules/.wrap-ansi-tWT49lLx',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/yargs': '/Users/user/Desktop/link-ghosta/node_modules/.yargs-5OgGJxgK',
+125 silly reify   '/Users/user/Desktop/link-ghosta/node_modules/yargs-parser': '/Users/user/Desktop/link-ghosta/node_modules/.yargs-parser-el2TA8X1'
+125 silly reify }
+126 silly audit bulk request {
+126 silly audit   rxjs: [ '7.8.2' ],
+126 silly audit   'tree-kill': [ '1.2.2' ],
+126 silly audit   tslib: [ '2.8.1' ],
+126 silly audit   concurrently: [ '10.0.3' ],
+126 silly audit   chalk: [ '5.6.2' ],
+126 silly audit   'shell-quote': [ '1.8.4' ],
+126 silly audit   'supports-color': [ '10.2.2' ],
+126 silly audit   yargs: [ '18.0.0' ],
+126 silly audit   cliui: [ '9.0.1' ],
+126 silly audit   escalade: [ '3.2.0' ],
+126 silly audit   'get-caller-file': [ '2.0.5' ],
+126 silly audit   'string-width': [ '7.2.0' ],
+126 silly audit   y18n: [ '5.0.8' ],
+126 silly audit   'yargs-parser': [ '22.0.0' ],
+126 silly audit   'strip-ansi': [ '7.2.0' ],
+126 silly audit   'wrap-ansi': [ '9.0.2' ],
+126 silly audit   'emoji-regex': [ '10.6.0' ],
+126 silly audit   'get-east-asian-width': [ '1.6.0' ],
+126 silly audit   'ansi-regex': [ '6.2.2' ],
+126 silly audit   'ansi-styles': [ '6.2.3' ]
+126 silly audit }
+127 http cache get-east-asian-width@https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz 0ms (cache hit)
+128 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz 0ms (cache hit)
+129 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz 0ms (cache hit)
+130 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz 0ms (cache hit)
+131 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 0ms (cache hit)
+132 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 0ms (cache hit)
+133 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz 0ms (cache hit)
+134 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz 0ms (cache hit)
+135 http cache shell-quote@https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.4.tgz 0ms (cache hit)
+136 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz 0ms (cache hit)
+137 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 0ms (cache hit)
+138 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 0ms (cache hit)
+139 http cache concurrently@https://registry.npmjs.org/concurrently/-/concurrently-10.0.3.tgz 0ms (cache hit)
+140 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 0ms (cache hit)
+141 silly tarball no local data for get-east-asian-width@https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz. Extracting by manifest.
+142 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz. Extracting by manifest.
+143 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz. Extracting by manifest.
+144 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz. Extracting by manifest.
+145 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz. Extracting by manifest.
+146 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz. Extracting by manifest.
+147 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz. Extracting by manifest.
+148 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz. Extracting by manifest.
+149 silly tarball no local data for shell-quote@https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.4.tgz. Extracting by manifest.
+150 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz. Extracting by manifest.
+151 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz. Extracting by manifest.
+152 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz. Extracting by manifest.
+153 silly tarball no local data for concurrently@https://registry.npmjs.org/concurrently/-/concurrently-10.0.3.tgz. Extracting by manifest.
+154 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz. Extracting by manifest.
+155 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 167ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz 175ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz 180ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz 179ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 174ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 185ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 185ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz 189ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz 205ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.4.tgz 211ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz 220ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 215ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz 266ms (cache miss)
+168 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 300ms
+169 silly audit report {}
+170 http fetch GET 200 https://registry.npmjs.org/concurrently/-/concurrently-10.0.3.tgz 306ms (cache miss)
+171 silly ADD node_modules/get-east-asian-width
+172 silly CHANGE node_modules/yargs-parser
+173 silly CHANGE node_modules/yargs
+174 silly CHANGE node_modules/wrap-ansi
+175 silly CHANGE node_modules/supports-color
+176 silly CHANGE node_modules/strip-ansi
+177 silly CHANGE node_modules/string-width
+178 silly CHANGE node_modules/shell-quote
+179 silly REMOVE node_modules/require-directory
+180 silly REMOVE node_modules/is-fullwidth-code-point
+181 silly REMOVE node_modules/has-flag
+182 silly CHANGE node_modules/emoji-regex
+183 silly CHANGE node_modules/concurrently
+184 silly REMOVE node_modules/color-name
+185 silly REMOVE node_modules/color-convert
+186 silly CHANGE node_modules/cliui
+187 silly CHANGE node_modules/chalk
+188 silly REMOVE node_modules/chalk/node_modules/supports-color
+189 silly CHANGE node_modules/ansi-styles
+190 silly CHANGE node_modules/ansi-regex
+191 verbose cwd /Users/user/Desktop/link-ghosta
+192 verbose os Darwin 25.5.0
+193 verbose node v25.8.1
+194 verbose npm  v11.11.0
+195 verbose exit 0
+196 info ok

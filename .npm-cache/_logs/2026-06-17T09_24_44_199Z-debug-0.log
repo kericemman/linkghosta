@@ -1,0 +1,43 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.11.0
+2 info using node@v25.8.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/user/Desktop/link-ghosta/.npmrc
+5 silly config load:file:/Users/user/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm audit
+8 verbose argv "audit" "--json"
+9 verbose logfile logs-max:10 dir:/Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_44_199Z-
+10 verbose logfile /Users/user/Desktop/link-ghosta/.npm-cache/_logs/2026-06-17T09_24_44_199Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly audit bulk request {
+13 silly audit   'ansi-regex': [ '6.2.2' ],
+13 silly audit   'ansi-styles': [ '6.2.3' ],
+13 silly audit   chalk: [ '5.6.2' ],
+13 silly audit   cliui: [ '9.0.1' ],
+13 silly audit   concurrently: [ '10.0.3' ],
+13 silly audit   'emoji-regex': [ '10.6.0' ],
+13 silly audit   escalade: [ '3.2.0' ],
+13 silly audit   'get-caller-file': [ '2.0.5' ],
+13 silly audit   'get-east-asian-width': [ '1.6.0' ],
+13 silly audit   rxjs: [ '7.8.2' ],
+13 silly audit   'shell-quote': [ '1.8.4' ],
+13 silly audit   'string-width': [ '7.2.0' ],
+13 silly audit   'strip-ansi': [ '7.2.0' ],
+13 silly audit   'supports-color': [ '10.2.2' ],
+13 silly audit   'tree-kill': [ '1.2.2' ],
+13 silly audit   tslib: [ '2.8.1' ],
+13 silly audit   'wrap-ansi': [ '9.0.2' ],
+13 silly audit   y18n: [ '5.0.8' ],
+13 silly audit   yargs: [ '18.0.0' ],
+13 silly audit   'yargs-parser': [ '22.0.0' ]
+13 silly audit }
+14 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 596ms
+15 silly audit report {}
+16 verbose cwd /Users/user/Desktop/link-ghosta
+17 verbose os Darwin 25.5.0
+18 verbose node v25.8.1
+19 verbose npm  v11.11.0
+20 verbose exit 0
+21 info ok
