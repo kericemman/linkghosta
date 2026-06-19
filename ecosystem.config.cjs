@@ -11,9 +11,7 @@ module.exports = {
       max_memory_restart: "500M",
       exp_backoff_restart_delay: 100,
       env: {
-        NODE_ENV: "production",
-        HOST: "127.0.0.1",
-        PORT: 5001
+        NODE_ENV: "production"
       }
     }
   ]

@@ -11,8 +11,11 @@ npm run build --prefix frontend
 pm2 startOrReload ecosystem.config.cjs --env production
 pm2 save
 
+API_PORT="$(sed -n 's/^PORT=//p' backend/.env | tail -n 1 | tr -d '[:space:]')"
+API_PORT="${API_PORT:-5001}"
+
 for attempt in {1..15}; do
-  if curl --fail --silent http://127.0.0.1:5001/api/health >/dev/null; then
+  if curl --fail --silent "http://127.0.0.1:${API_PORT}/api/health" >/dev/null; then
     echo "LinkGhosta deployment completed successfully."
     exit 0
   fi
