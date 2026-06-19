@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Mail, MessageSquare } from "lucide-react";
+import { ArrowRight, ArrowUpRight, CalendarDays, CheckCircle2, Mail, MessageSquare } from "lucide-react";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import Container from "../../components/shared/Container.jsx";
@@ -16,6 +16,7 @@ const services = [
 const inputClass = "mt-2 w-full rounded-md border border-neutral-300 bg-white px-3 py-3 text-sm outline-none focus:border-brand-500";
 
 export default function ContactPage() {
+  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL?.trim();
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -78,7 +79,10 @@ export default function ContactPage() {
                   <p key={item} className="flex gap-3 text-sm leading-7 text-neutral-700"><CheckCircle2 size={20} className="mt-1 shrink-0 text-brand-600" />{item}</p>
                 ))}
               </div>
-              <a href="mailto:hello@linkghosta.com" className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-brand-700"><Mail size={17} />hello@linkghosta.com</a>
+              <div className="mt-8 flex flex-col items-start gap-4">
+                <a href="mailto:hello@linkghosta.com" className="inline-flex items-center gap-2 text-sm font-bold text-brand-700"><Mail size={17} />hello@linkghosta.com</a>
+                <a href="https://calendly.com/hello-linkghosta/30min"className="inline-flex items-center gap-2  text-sm font-bold  text-brand-700"><CalendarDays size={17} />Book on Calendly</a>
+              </div>
             </aside>
 
             {done ? (

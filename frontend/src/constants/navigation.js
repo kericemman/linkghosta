@@ -29,7 +29,7 @@ export const footerNavigationGroups = [
       { label: "About", href: publicRoutes.about },
       { label: "Process", href: publicRoutes.process },
       { label: "Results", href: publicRoutes.results },
-      { label: "Clients", href: publicRoutes.clients }
+     
     ]
   },
   {

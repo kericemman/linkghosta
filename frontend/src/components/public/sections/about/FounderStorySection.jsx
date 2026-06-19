@@ -9,11 +9,11 @@ export default function FounderStorySection() {
           <h2 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-ink sm:text-4xl">
             Strategic storytelling made visible.
           </h2>
-          <div className="relative overflow-hidden rounded-[2rem] border border-brand-500/15 shadow-[0_20px_60px_rgba(124,45,18,0.10)]">
+          <div className="relative aspect-[3/2] overflow-hidden rounded-lg border border-brand-500/15 bg-neutral-100 shadow-[0_20px_60px_rgba(124,45,18,0.10)]">
             <img
-              src="/assets/about-founder-story.jpg"
+              src="/assets/miri.png"
               alt="Professional woman working on a laptop"
-              className="aspect-[4/3] w-full object-cover"
+              className="absolute inset-0 h-full w-full scale-[1.06] object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-ink/30 via-transparent to-brand-500/20" aria-hidden="true" />
           </div>

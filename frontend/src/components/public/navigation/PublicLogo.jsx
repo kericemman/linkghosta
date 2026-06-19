@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
 const sizeClasses = {
-  default: "h-14 w-[128px] sm:h-[68px] sm:w-[155px] lg:w-[178px]",
-  small: "h-10 w-[91px] sm:h-11 sm:w-[100px]",
+  default: "h-[52px] w-[166px] sm:h-16 sm:w-[205px] lg:h-[68px] lg:w-[218px]",
+  small: "h-10 w-[128px] sm:h-11 sm:w-[141px]",
 };
 
 export default function PublicLogo({ size = "default", className = "" }) {

@@ -15,7 +15,7 @@ const isProduction = process.env.NODE_ENV === "production";
 const configuredOrigins = (process.env.CLIENT_URL || "")
   .split(",")
   .map((origin) => origin.trim().replace(/\/$/, ""));
-const localOrigins = ["http://localhost:5174", "http://127.0.0.1:5174"];
+const localOrigins = ["http://localhost:5174", "https://www.linkghosta.com", "https://linkghosta.com"].filter(Boolean);
 const allowedOrigins = new Set([...configuredOrigins, ...(isProduction ? [] : localOrigins)].filter(Boolean));
 
 if (isProduction) app.set("trust proxy", 1);

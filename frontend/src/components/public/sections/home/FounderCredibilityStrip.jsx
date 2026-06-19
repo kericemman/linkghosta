@@ -1,7 +1,7 @@
 import { Linkedin, MapPin, UsersRound } from "lucide-react";
 import Container from "../../../shared/Container.jsx";
 
-const founderLinkedInUrl = "https://www.linkedin.com/search/results/people/?keywords=Miriam%20Maru%20LinkGhosta";
+const founderLinkedInUrl = "https://www.linkedin.com/in/miriammaru-ghostwriter-copywriter-contentwriter";
 
 export default function FounderCredibilityStrip() {
   return (

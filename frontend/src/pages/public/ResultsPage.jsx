@@ -29,6 +29,9 @@ function getResultValue(caseStudy, keys, fallback = "Added from dashboard") {
 }
 
 function CaseStudyCard({ caseStudy }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const client = getResultValue(caseStudy, ["client", "clientName", "title"], "Client added from dashboard");
   const slug = caseStudy?.slug || caseStudy?._id || caseStudy?.id;
   const followerGrowth = getResultValue(caseStudy, ["followerGrowth", "followers", "growth"], "X to Y in Z months");
@@ -181,7 +184,7 @@ export default function ResultsPage() {
             />
             <div className="relative mx-auto max-w-3xl">
               <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-                Ready to be the next case study?
+                Ready for results like this?
               </h2>
               <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-neutral-300">
                 Let's build a LinkedIn presence that creates opportunities worth measuring.
