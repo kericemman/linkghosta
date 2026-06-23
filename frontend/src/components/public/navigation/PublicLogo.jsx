@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import navbarLogo from "../../../assets/logo-icon-black.png";
+import navbarLogo from "../../../assets/logo-navbar.png";
 
 const sizeClasses = {
-  default: "h-12 w-9 sm:h-14 sm:w-10 lg:h-16 lg:w-12",
-  small: "h-10 w-8 sm:h-11 sm:w-8",
+  default: "h-[52px] w-[166px] sm:h-16 sm:w-[205px] lg:h-[68px] lg:w-[218px]",
+  small: "h-10 w-[128px] sm:h-11 sm:w-[141px]",
 };
 
 export default function PublicLogo({ size = "default", className = "" }) {
