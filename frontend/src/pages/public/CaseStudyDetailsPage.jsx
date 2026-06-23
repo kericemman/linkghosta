@@ -52,6 +52,9 @@ function ResultImageGallery({ coverImage, images, client }) {
 }
 
 export default function CaseStudyDetailsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { slug } = useParams();
   const [item, setItem] = useState();
   const [missing, setMissing] = useState(false);

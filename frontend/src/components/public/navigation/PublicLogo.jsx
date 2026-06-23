@@ -15,7 +15,7 @@ export default function PublicLogo({ size = "default", className = "" }) {
     >
       <img
         src={navbarLogo}
-        alt=""
+        alt="logo Image"
         aria-hidden="true"
         className={`block shrink-0 object-contain object-center ${sizeClasses[size] || sizeClasses.default}`}
       />
